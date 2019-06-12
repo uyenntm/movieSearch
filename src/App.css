@@ -47,3 +47,21 @@
   font-family: Arial, Helvetica, sans-serif;
   vertical-align: middle;
 }
+.movie-list-item{
+  float:left;
+  width: 25%;
+  height:auto;
+  padding: 5px 15px;
+}
+.movie-list-item img{
+  width: 100%;
+  height: auto;
+}
+.movie-list-item .movie-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+  font-weight: bolder;
+  font-size: 18pt;
+}
